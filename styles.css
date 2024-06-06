@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    background-image: url("https://images.unsplash.com/34/BA1yLjNnQCI1yisIZGEi_2013-07-16_1922_IMG_9873.jpg?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=900&ixid=MnwxfDB8MXxyYW5kb218MHx8bGFuZHNjYXBlfHx8fHx8MTcxNzcwNDM4Ng&ixlib=rb-4.0.3&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=1600");
+
+}
+
+.caixa-maior {
+    background-color: #000000;
+    width: 95%;
+    max-width: 420px;
+    opacity: 0.8;
+    padding: 20px;
+    border-radius: 25px;
+}
+
+input {
+    border: none;
+    outline: none;
+    padding: 10px;
+    border-radius: 24px;
+    font-size: 20px;
+    background-color: #7c7c7c2b;
+    color: #fff;
+    width: calc(100% - 100px);
+}
+
+button {
+    border: none;
+    outline: none;
+    padding: 10px;
+    border-radius: 50px;
+    background-color: #7c7c7c2b;
+    float: right;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #7c7c7c6b;
+}
+
+.caixa-media {
+    margin-top: 30px;
+}
+
+.caixa-menor {
+    display: flex;
+    margin-top: 30px;
+    align-items: center;
+}
+
+.lupa {
+    height: 20px;
+}
+
+h2 {
+    color: white;
+    font-size: 28px;
+}
+
+.temp {
+    color: #fff;
+    margin-top: 30px;
+    font-size: 30px;
+}
+
+.descricao {
+    color: #fff;
+    margin-left: 20px;
+    text-decoration: capitalize;
+
+}
+
+.umidade {
+    color: #fff;
+    margin-top: 30px;
+}
