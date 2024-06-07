@@ -1,4 +1,4 @@
-let keys = '88b0a84b8522ecfd06649daf4f466b7b';
+let keys = '******************************'
 
 function colocarDadosTela(dados) {
     console.log(dados)
