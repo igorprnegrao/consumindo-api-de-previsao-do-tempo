@@ -1,4 +1,6 @@
-let keys = '******************************'
+require('dotenv').config();
+let keys = process.env.API_KEY;
+
 
 function colocarDadosTela(dados) {
     console.log(dados)
