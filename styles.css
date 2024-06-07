@@ -29,10 +29,10 @@ body {
     outline: none;
     padding: 10px;
     border-radius: 24px;
-    font-size: 20px;
+    font-size: 18px;
     background-color: #7c7c7c2b;
     color: #fff;
-    width: calc(100% - 100px);
+    width: calc(100% - 70px);
 }
 
 .botao-busca {
@@ -41,47 +41,45 @@ body {
     padding: 10px;
     border-radius: 50px;
     background-color: #7c7c7c2b;
-    float: right;
     cursor: pointer;
+    float: right;
 }
 
-button:hover {
-    background-color: #7c7c7c6b;
+.img-busca {
+    width: 20px;
 }
-
 .caixa-media {
     margin-top: 30px;
+
+}
+.cidade {
+    color: #fff;
+    font-size: 28px;
+    font-weight: 300;
+}
+
+.temp {
+    font-size: 20px;
+    color: #fff;
+    margin-top: 20px;
 }
 
 .caixa-menor {
     display: flex;
-    margin-top: 30px;
     align-items: center;
+    margin-top: 20px;
 }
 
-.lupa {
-    height: 20px;
-}
-
-h2 {
-    color: white;
-    font-size: 28px;
-}
-
-.temp {
-    color: #fff;
-    margin-top: 30px;
-    font-size: 30px;
-}
-
-.descricao {
+.texto-previsao {
     color: #fff;
     margin-left: 20px;
-    text-decoration: capitalize;
-
 }
-
 .umidade {
     color: #fff;
-    margin-top: 30px;
+    margin-top: 20px;
 }
+
+.img-previsao {
+    margin-left: -10px;
+}
+
